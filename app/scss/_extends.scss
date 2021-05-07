@@ -1,0 +1,31 @@
+%container {
+  width: 80%;
+  padding: 0 10%;
+}
+
+%flexDisplay {
+  display: flex;
+  justify-content: space-between;
+}
+
+%social-block {
+  margin-top: 20px;
+
+  i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #eee;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    margin-right: 5px;
+    color: #000;
+    cursor: pointer;
+    transition: color 600ms ease;
+
+    &:hover {
+      color: $mainColor;
+    }
+  }
+}
